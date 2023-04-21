@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Buildings.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff807341</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff807341</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff807341</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff807341</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Generic Building 1</name>
+		<snippet></snippet>
+		<description><![CDATA[<Stories></Stories>
+<Class></Class>
+<Type>Generic Building</Type>
+
+<Note>Trades ward</Note>
+<SERIAL></SERIAL>]]></description>
+		<Camera>
+			<longitude>-80.64674862087391</longitude>
+			<latitude>37.89722759396741</latitude>
+			<altitude>38.00940921501169</altitude>
+			<heading>12.42815676103563</heading>
+			<tilt>25.65593675792612</tilt>
+			<roll>-0.5367334565912015</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-80.64814782727518,37.89719214858367,15 -80.64814126606862,37.89730632846241,15 -80.64807734220389,37.89731623681436,15 -80.64808943926593,37.89755631210146,15 -80.64844481220372,37.89755584074519,15 -80.64832033571301,37.89718228800109,15 -80.64814782727518,37.89719214858367,15 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-80.64774202908995,37.89766598949628,9.999999999999998 -80.64774286058723,37.89746758606215,9.999999999999998 -80.64752325045218,37.89746869408426,9.999999999999998 -80.64754954463213,37.89767212309991,9.999999999999998 -80.64774202908995,37.89766598949628,9.999999999999998 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-80.64752435655662,37.89724786911347,8 -80.64783938373384,37.89724368555562,8 -80.64784001299341,37.89714918447493,8 -80.64772965921681,37.89710833170378,8 -80.64772741502883,37.89700628494155,8 -80.64764760452175,37.89700790587347,8 -80.64752166146198,37.89706983497702,8 -80.64752435655662,37.89724786911347,8 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-80.64667957844301,37.89754357936526,15 -80.64667944336344,37.89759300242568,15 -80.64688851569605,37.89759376547483,15 -80.64696690718027,37.89752043082235,15 -80.64696597915179,37.89720194143584,15 -80.64675056738675,37.89720461939534,15 -80.64674839802012,37.89733661177811,15 -80.64673899659579,37.89733968794424,15 -80.64672267560186,37.89733815689426,15 -80.64670721213072,37.89734290599625,15 -80.64668983625133,37.89735285395311,15 -80.64667370001521,37.89736656632715,15 -80.64666358650157,37.89738333696047,15 -80.64665784877634,37.89740136632597,15 -80.64666440422752,37.89741891555531,15 -80.64667269754163,37.89743737837654,15 -80.64669004630113,37.89744982255253,15 -80.64671184358032,37.89746060192292,15 -80.64674329056882,37.89746560423108,15 -80.64674147927484,37.89749377375097,15 -80.64667957844301,37.89754357936526,15 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-80.64625084392286,37.89740893318429,15 -80.64649328048202,37.8974151339845,15 -80.64649512362531,37.897372812097,15 -80.64643927266096,37.89731514133867,15 -80.64657853084191,37.8972125108838,15 -80.64647943187406,37.89711375733091,15 -80.64624344396175,37.89711574011233,15 -80.64625084392286,37.89740893318429,15 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-80.64625756428983,37.89769366620057,6 -80.64646236262966,37.89769135655742,6 -80.64646708675043,37.89754437018593,6 -80.64626325099583,37.89754424110671,6 -80.64625756428983,37.89769366620057,6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-80.64566340730356,37.89718627920385,9.999999999999998 -80.64604272163248,37.89718697840753,9.999999999999998 -80.64604707472101,37.89700601618397,9.999999999999998 -80.64566676692432,37.89700906313128,9.999999999999998 -80.64566340730356,37.89718627920385,9.999999999999998 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>
